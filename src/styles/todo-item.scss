@@ -1,0 +1,14 @@
+.todo-item {
+  text-align: left;
+  display: flex;
+  margin: 10px auto;
+  label {
+    min-width: 280px;
+    max-width: 280px;
+    word-wrap: break-word;
+  }
+
+  .cross-out {
+    text-decoration: line-through;
+  }
+}
